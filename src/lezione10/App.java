@@ -13,6 +13,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("java swing example running..");
         System.out.println("finish..");
+        System.out.println("stampa3..");
     }
   
 }
