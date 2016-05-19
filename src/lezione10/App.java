@@ -5,14 +5,19 @@
  */
 package lezione10;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author tss
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("java swing example running..");
-        System.out.println("finish..");
+
+        JFrame f =new JFrame("Esempio swing");
+        f.setBounds(100, 100, 300, 200);
+        f.setVisible(true);
+        
     }
   
 }
